@@ -2,13 +2,16 @@
 Nav{
     background-color: rgb(6, 6, 65);
     display: flex;
-    padding: 20px 100px;
+    padding: 20px 50px;
+    justify-content: space-between;
     position: fixed;
     top: 0px;
     left: 0px;
     right: 0px;
 }
-
+.Bootstrap-imglogo{
+    display: flex;
+}
 .bootslogo-img{
     width: 40px;
     height: 50px;
@@ -26,13 +29,14 @@ Nav{
 }
 
 .navchild2{
-    padding-top: 5px;
+    padding-top: 15px;
 }
 .navchild2 a{
     text-decoration: none;
     color: rgb(186, 185, 216);
     padding-left: 30px;
-    font-size: 25px;
+    font-size: 16px;
+    font-family: roboto, sans-serif;
 }
 
 .Search-bar{
@@ -42,15 +46,15 @@ Nav{
     padding-left: 20px;
 }
 .Search-input{
-    width: 300px;
+    width: 200px;
     border-color: rgb(186, 185, 216);
     background-color: transparent;
     color: white;
 }
 .searchlogo{
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 /* h1 css code */
@@ -103,9 +107,9 @@ p{
 button{
     background-color: white;
     border-radius: 8px;
-    padding: 15px 40px;
+    padding: 10px 20px;
     margin-right: 8px;
-    font-size: 20px;
+    font-size: 10px;
     color: rgb(87, 86, 85);
     border-color: rgb(238, 232, 232);
 }
